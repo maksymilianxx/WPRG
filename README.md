@@ -1,0 +1,2 @@
+# WPRG
+warsztaty programistyczne, PJATK
