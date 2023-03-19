@@ -1,0 +1,25 @@
+<FORM METHOD="post" ACTION="4_1.php">
+    <LABEL FOR="nazwa">Imie i nazwisko: </LABEL>
+        <INPUT TYPE="text" NAME="nazwa"><br>
+    <LABEL FOR="mail">Adres mailowy: </LABEL>
+        <INPUT TYPE="email" NAME="mail"><br>
+    <LABEL for="telefon">Numer telefonu: </LABEL>
+        <INPUT TYPE="text" NAME="telefon"><br><br>
+    <LABEL for="pole">Wybierz temat: </LABEL>
+        <SELECT NAME="pole">
+            <OPTION VALUE="stronainternetowa">Wykonanie strony internetowej</OPTION>
+        </SELECT><br><br>
+    <LABEL FOR="tresc">Tresc wiadomosci: </LABEL>
+        <TEXTAREA NAME="tresc"></TEXTAREA><br><br>
+    <LABEL>Preferowana forma kontaktu: </LABEL><br>
+        <INPUT TYPE="checkbox" NAME="prefer1">
+        <LABEL FOR="prefer1">E-mail</LABEL><br>
+        <INPUT TYPE="checkbox" NAME="prefer2">
+        <LABEL FOR="prefer2">Telefon komorkowy</LABEL><br><br>
+    <LABEL>Posiadasz juz strone www?</LABEL><br>
+        <LABEL><INPUT TYPE="RADIO" NAME="polejedno" ID="tak" VALUE="Tak"> Tak</LABEL><br>
+        <LABEL><INPUT TYPE="RADIO" NAME="polejedno" ID="nie" VALUE="Nie"> Nie</LABEL><br><br>
+            <LABEL FOR="attachment">Zalaczniki:</LABEL>
+            <INPUT TYPE="FILE" NAME="attachment"><br><br>
+            <INPUT TYPE="submit" VALUE="Wyslij formularz">
+</FORM>
