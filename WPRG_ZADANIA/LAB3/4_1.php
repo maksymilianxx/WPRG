@@ -30,9 +30,6 @@ if(isset($_POST['prefer1']) || isset($_POST['prefer2'])){
 if(isset($_POST['polejedno'])){
     echo '<li>' . $_POST['polejedno'] . '</li>';
 }
-// if(isset($_POST['attachment'])){
-//     echo '<li>' . $_POST['attachment'] . '</li>';
-// }
 if($_POST['attachment']!=""){
     echo '<li>' . $_POST['attachment'] . '</li>';
 }
